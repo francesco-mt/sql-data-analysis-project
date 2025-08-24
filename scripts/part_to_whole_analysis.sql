@@ -11,6 +11,6 @@ SELECT
 	SUM(total_revenue_by_category) OVER() as total_revenue,
     category,
 	total_revenue_by_category,
-	ROUND(CAST(total_revenue_by_category AS FLOAT)/ SUM(total_revenue_by_category) OVER() * 100,2) as part_to_whole_percentage
+	CONCAT(ROUND(CAST(total_revenue_by_category AS FLOAT)/ SUM(total_revenue_by_category) OVER() * 100,2), ' %') as part_to_whole_percentage
 FROM category_totals
 ORDER BY part_to_whole_percentage DESC;
