@@ -6,4 +6,8 @@ This repository is aimed at data analysts and BI professionals, providing ready-
 
 This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
 
+## Acknowledgment
+
+This project was developed by following the guidelines and structure provided in a tutorial created by [DataWithBaara](https://github.com/DataWithBaraa/sql-data-analytics-project/commits?author=DataWithBaraa). The original concept and teaching approach belong to the author. All SQL scripts in this repository were written in order to carry out tasks and meet requirements dictated by the author but were written by me, while adopting a similar style and methodology for learning purposes.
+
 
